@@ -35,17 +35,14 @@ Replace the link with your actual WhatsApp invite link:
 
 
 
-
-In Apps Script → Left sidebar → ⏰ (Triggers)
-
-Add new trigger:
-
-Function: sendWhatsAppInvite
-
-Event: From spreadsheet → On form submit
+### 5. Create Trigger
+-In Apps Script → Left sidebar → ⏰ (Triggers)
+-Add new trigger:
+-Function: sendWhatsAppInvite
+-Event: From spreadsheet → On form submit
 
 
 
-Authorize the script
-Run once manually to trigger permission request. Accept the warning (script is safe if you're the owner).
+### Authorize the script
+-Run once manually to trigger permission request. Accept the warning (script is safe if you're the owner).
 ```js
