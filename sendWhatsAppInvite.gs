@@ -6,7 +6,7 @@ function sendWhatsAppInvite(e) {
 
 
   if (!/@.+\.ac\.uk$/.test(email)) {
-    Logger.log("Не студент: " + email);
+    Logger.log("Not a student: " + email);
     statusCell.setValue("Blocked");
     return;
   }
