@@ -30,7 +30,7 @@ This Google Apps Script project automatically filters student emails and sends W
 Paste contents of `sendWhatsAppInvite.gs`
 
 Replace the link with your actual WhatsApp invite link:
-```js
+
 👉 https://chat.whatsapp.com/YOUR_LINK_HERE
 
 
@@ -48,3 +48,4 @@ Event: From spreadsheet → On form submit
 
 Authorize the script
 Run once manually to trigger permission request. Accept the warning (script is safe if you're the owner).
+```js
